@@ -27,7 +27,7 @@ function Login() {
           <input type='Email' className='box'  placeholder='enter Email ' name='Email' value={Email} onChange={changeHandler}/>
           <input type='password' className='box' placeholder='enter password' name='password' value={password} onChange={changeHandler}/>
            <Link to='/dash'><botton className= 'btn   btn'>Login</botton> </Link>
-         <a href='#' className='a'>Forrget password</a>
+         <a href='#' className='a'>Forgot password</a>
          </div>
         </form>
        </div>
